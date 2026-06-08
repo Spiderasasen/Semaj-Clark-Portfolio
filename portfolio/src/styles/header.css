@@ -1,0 +1,52 @@
+/* ===== Header Container ===== */
+header {
+    width: 100%;
+    background: #f7fafc; /* soft, clean clinic-like tone */
+    border-bottom: 2px solid #d9e2ec;
+    padding: 15px 0;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* ===== Navigation ===== */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Navigation Items ===== */
+nav ul li {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #2d3a45;
+    cursor: pointer;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: all 0.25s ease;
+    letter-spacing: 0.5px;
+}
+
+/* Hover effect: calm, professional, friendly */
+nav ul li:hover {
+    background: #d0e8ff; /* soft blue, medical/vet feel */
+    color: #1a2b34;
+    transform: translateY(-2px);
+}
+
+/* ===== Mobile Friendly ===== */
+@media (max-width: 600px) {
+    nav ul {
+        gap: 20px;
+    }
+
+    nav ul li {
+        font-size: 1rem;
+        padding: 6px 10px;
+    }
+}
