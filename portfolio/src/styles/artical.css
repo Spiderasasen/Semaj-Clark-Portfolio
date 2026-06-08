@@ -1,0 +1,18 @@
+.vet-article-link {
+    display: inline-block;
+    padding: 10px 18px;
+    background-color: #e3f4ff; /* soft medical blue */
+    color: #1f3b4d;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 8px;
+    border: 1px solid #bcd9ea;
+    transition: all 0.25s ease;
+    letter-spacing: 0.3px;
+}
+
+.vet-article-link:hover {
+    background-color: #cfe9ff;
+    border-color: #9cc7df;
+    transform: translateY(-2px);
+}
