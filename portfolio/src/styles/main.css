@@ -1,0 +1,15 @@
+body{
+    background-color: #f5f5f5;
+}
+
+main{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 auto;
+    padding: 20px 30px;
+}
+
+.vet-article-container {
+    text-align: center;
+}

@@ -16,3 +16,12 @@
     border-color: #9cc7df;
     transform: translateY(-2px);
 }
+
+figure img{
+    width: 50%;
+    height: auto;
+    border-radius: 10px !important;
+}
+figcaption{
+    padding-top: 30px;
+}
