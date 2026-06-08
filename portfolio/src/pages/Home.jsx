@@ -1,6 +1,7 @@
 import Header from "../components/Header.jsx"
 import "../styles/artical.css"
 import "../styles/main.css"
+import Certification from "../assets/certifcation_hold_image.jpg"
 
 function Home() {
     return (
@@ -25,6 +26,25 @@ function Home() {
                             </a>
                         </figcaption>
                     </figure>
+                </div>
+
+                {/*conatiner for certifaction images*/}
+                <div className="certification">
+                    <h3>Certifications</h3>
+                    <div className="certification-container">
+                        <img src={Certification} alt={"certification image"}/>
+                        <img src={Certification} alt={"certification image"}/>
+                    </div>
+                </div>
+
+                <div className="certification">
+                    <a
+                        className={"vet-article-link"}
+                        href={"#"}
+                        target={"_blank"}
+                    >
+                        Want my resume? Click here!
+                    </a>
                 </div>
             </main>
         </>
