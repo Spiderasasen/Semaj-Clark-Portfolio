@@ -2,6 +2,7 @@ import Header from "../components/Header.jsx"
 import "../styles/artical.css"
 import "../styles/main.css"
 import Certification from "../assets/certifcation_hold_image.jpg"
+import Footer from "../components/Footer.jsx";
 
 function Home() {
     return (
@@ -37,14 +38,8 @@ function Home() {
                     </div>
                 </div>
 
-                <div className="certification">
-                    <a
-                        className={"vet-article-link"}
-                        href={"#"}
-                        target={"_blank"}
-                    >
-                        Want my resume? Click here!
-                    </a>
+                <div className="resume">
+                  <Footer />
                 </div>
             </main>
         </>

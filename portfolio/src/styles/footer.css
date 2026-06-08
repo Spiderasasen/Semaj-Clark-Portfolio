@@ -1,0 +1,38 @@
+/* ===== Footer Container ===== */
+footer {
+    width: 100%;
+    background: #f0f7fa; /* soft medical blue/white */
+    padding: 25px 0;
+    text-align: center;
+    border-top: 2px solid #d6e6ee;
+    margin-top: 40px;
+}
+
+/* ===== Resume Link Styling ===== */
+.resume-link {
+    display: inline-block;
+    padding: 12px 22px;
+    background-color: #dff3ff; /* gentle clinic blue */
+    color: #1f3b4d;
+    font-weight: 600;
+    text-decoration: none;
+    border-radius: 10px;
+    border: 1px solid #bcd9ea;
+    letter-spacing: 0.4px;
+    transition: all 0.25s ease;
+}
+
+/* Hover effect: subtle, trustworthy, professional */
+.resume-link:hover {
+    background-color: #cbe8ff;
+    border-color: #9cc7df;
+    transform: translateY(-3px);
+}
+
+/* ===== Mobile Friendly ===== */
+@media (max-width: 600px) {
+    .resume-link {
+        padding: 10px 18px;
+        font-size: 0.95rem;
+    }
+}
