@@ -12,6 +12,13 @@ body {
     z-index: 0;
 }
 
+h1{
+    font-family: "Inter", sans-serif;
+    color: #1f3b4d;
+    font-size: 2.6rem;
+    letter-spacing: 0.5px;
+}
+
 /* Background overlay */
 body::before {
     content: "";
