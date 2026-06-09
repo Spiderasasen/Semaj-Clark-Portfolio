@@ -4,8 +4,14 @@ import "../styles/main.css"
 import Certification from "../assets/certification1.png";
 import Certification2 from "../assets/certification2.png";
 import Footer from "../components/Footer.jsx";
+import React from "react";
+import {useEffect} from "react";
 
 function Home() {
+    React.useEffect(() => {
+        document.title = "Home";
+    })
+
     return (
         <>
             {/*header code*/}

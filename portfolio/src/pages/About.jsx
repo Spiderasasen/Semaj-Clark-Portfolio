@@ -3,8 +3,13 @@ import Footer from "../components/Footer.jsx";
 import "../styles/main.css";
 import "../styles/about.css";
 import Semaj from "../assets/semaj.jpeg";
+import React from "react";
 
 function About(){
+    React.useEffect(() => {
+        document.title = "About Me";
+    })
+
     return(
         <>
             <div>
