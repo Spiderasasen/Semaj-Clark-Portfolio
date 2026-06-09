@@ -3,6 +3,7 @@ import Footer from "../components/Footer.jsx";
 import "../styles/main.css";
 import links from "../data/links.json"
 import Link_Card from "../components/Link_Card.jsx";
+import "../styles/contact_card.css"
 import React from "react";
 
 function Contact(){
@@ -12,9 +13,7 @@ function Contact(){
 
     return(
         <>
-            <div>
-                <Header/>
-            </div>
+            <Header/>
 
             <main>
                 <h1>Contact Me</h1>
@@ -25,9 +24,7 @@ function Contact(){
                 </div>
             </main>
 
-            <div>
-                <Footer/>
-            </div>
+            <Footer/>
         </>
     )
 }

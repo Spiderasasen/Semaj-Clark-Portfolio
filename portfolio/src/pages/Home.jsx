@@ -15,12 +15,10 @@ function Home() {
     return (
         <>
             {/*header code*/}
-            <div>
-                <Header />
-            </div>
+            <Header />
 
             {/*main code*/}
-            <main>
+            <main className={"home-main"}>
                 <h1>Hi, im Semaj Clark!</h1>
                 {/*artical link*/}
                 <div className="vet-article-container">
@@ -44,11 +42,8 @@ function Home() {
                         <img src={Certification2} alt={"certification image"}/>
                     </div>
                 </div>
-
-                <div className="resume">
-                  <Footer />
-                </div>
             </main>
+            <Footer />
         </>
     )
 }

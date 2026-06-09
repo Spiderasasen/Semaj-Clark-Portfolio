@@ -12,9 +12,7 @@ function About(){
 
     return(
         <>
-            <div>
-                <Header/>
-            </div>
+            <Header/>
             <main className={"about-main"}>
                 <h1>About Me</h1>
                 <div>
@@ -33,9 +31,7 @@ function About(){
                     </figure>
                 </div>
             </main>
-            <div>
-                <Footer/>
-            </div>
+            <Footer/>
         </>
     )
 }
