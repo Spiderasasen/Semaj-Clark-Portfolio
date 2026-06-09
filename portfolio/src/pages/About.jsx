@@ -10,22 +10,18 @@ function About(){
             <div>
                 <Header/>
             </div>
-            <main>
+            <main className={"about-main"}>
                 <h1>About Me</h1>
                 <div>
                     <figure>
                         <img id={"semaj"} src={Semaj} alt={"Semaj Clark"}/>
                         <figcaption>
                             <p>
-                                I’m a STEM student at Elon University with a strong focus on the biological sciences and a clear passion for animal care. My long‑term goal is to pursue veterinary medical training and become a dedicated veterinary assistant who brings compassion, curiosity, and scientific understanding to every patient I work with.
+                                I am a Biology (Pre-Veterinary) student at Elon University with a passion for animal care, animal behavior, and veterinary medicine. My long-term goal is to become a zoological veterinarian, combining scientific knowledge, compassion, and hands-on experience to improve animal welfare and conservation efforts.
+                                Through my veterinary internship experience, I have gained practical clinical skills while working directly with animals and clients in a professional setting. These experiences strengthened my communication, teamwork, and problem-solving abilities and reinforced the importance of providing excellent care to both animals and their owners.I have also gained experience working with animals through volunteer service and continue to pursue opportunities that expand my understanding of veterinary and zoological sciences.
                             </p>
-
                             <p>
-                                During my internship at the veterinary clinic near Elon University, I gained hands‑on experience working with animals in a real clinical environment. That experience also strengthened my customer service skills and taught me how important communication is in veterinary care. As I stated in a recent interview, “In veterinary sciences, you have to be good with animals but good with people also. Every day, I always strive to either meet new people or get more social.”
-                            </p>
-
-                            <p>
-                                I’m also minoring in Spanish, which allows me to communicate confidently in two languages and support Spanish‑speaking families in veterinary settings. Whether I’m assisting with clinical tasks, helping clients feel comfortable, or learning from experienced professionals, I’m committed to growing into a well‑rounded, reliable member of the veterinary field.
+                                As a Spanish minor, I am developing the ability to communicate with clients from diverse backgrounds and provide support in bilingual settings. My interests include zoo and exotic animal medicine, animal behavior research, wildlife conservation, and veterinary clinical practice. I am committed to lifelong learning and to becoming a skilled, compassionate, and dependable veterinary professional. I have also accumulated over 350 hours of veterinary clinical experience, further strengthening my practical skills and dedication to the field.
                             </p>
                         </figcaption>
 

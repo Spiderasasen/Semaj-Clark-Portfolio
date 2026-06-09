@@ -1,5 +1,5 @@
 /* ===== Main Layout ===== */
-main {
+.about-main {
     max-width: 900px;
     margin: 60px auto;
     padding: 0 20px;
@@ -8,7 +8,7 @@ main {
 }
 
 /* ===== Page Title ===== */
-main h1 {
+.about-main h1 {
     text-align: center;
     font-size: 2.4rem;
     margin-bottom: 40px;
@@ -17,7 +17,7 @@ main h1 {
 }
 
 /* ===== Figure Layout ===== */
-main figure {
+.about-main figure {
     display: flex;
     align-items: flex-start;
     gap: 30px;
@@ -29,7 +29,7 @@ main figure {
 }
 
 /* ===== Image Styling ===== */
-main #semaj {
+.about-main #semaj {
     width: 220px;
     height: auto;
     border-radius: 12px;
@@ -39,27 +39,48 @@ main #semaj {
 
 /* ===== Text Section ===== */
 /* ===== Paragraph Styling ===== */
-main figcaption p {
+.about-main figcaption p {
     line-height: 1.6;
     font-size: 1.05rem;
     color: #2d3a45;
     margin-bottom: 18px; /* spacing between paragraphs */
 }
 
+/* ===== Paragraph Box Styling ===== */
+.about-main figcaption p {
+    background: #ffffff;
+    padding: 18px 20px;
+    border-radius: 10px;
+    border: 1px solid #d9e2ec;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+
+    line-height: 1.6;
+    font-size: 1.05rem;
+    color: #2d3a45;
+
+    margin-bottom: 20px; /* spacing between boxes */
+}
+
 /* Remove last paragraph spacing */
-main figcaption p:last-child {
+.about-main figcaption p:last-child {
+    margin-bottom: 0;
+}
+
+
+/* Remove last paragraph spacing */
+.about-main figcaption p:last-child {
     margin-bottom: 0;
 }
 
 
 /* ===== Mobile Friendly ===== */
 @media (max-width: 700px) {
-    main figure {
+    .about-main figure {
         flex-direction: column;
         text-align: center;
     }
 
-    main #semaj {
+    .about-main #semaj {
         width: 70%;
         margin: 0 auto;
     }
