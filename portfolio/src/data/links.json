@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "name": "linkedin",
+    "link": "https://www.linkedin.com/in/semaj-clark-a2572532a/"
+  },
+  {
+    "id": 2,
+    "name": "email",
+    "link": "sclark39@elon.edu"
+  },
+  {
+    "id": 3,
+    "name": "phone",
+    "link": "510-331-9695"
+  }
+]
