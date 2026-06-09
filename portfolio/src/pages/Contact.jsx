@@ -3,8 +3,13 @@ import Footer from "../components/Footer.jsx";
 import "../styles/main.css";
 import links from "../data/links.json"
 import Link_Card from "../components/Link_Card.jsx";
+import React from "react";
 
 function Contact(){
+    React.useEffect(() => {
+        document.title = "Contact Me";
+    })
+
     return(
         <>
             <div>
