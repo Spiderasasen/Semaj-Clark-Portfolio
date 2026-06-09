@@ -1,0 +1,43 @@
+/* ===== Contact Container ===== */
+.Links_container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+/* ===== Base Card Style ===== */
+.link-card {
+    background: #f7fafc;
+    padding: 18px 22px;
+    border-radius: 12px;
+    border: 1px solid #d9e2ec;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    transition: all 0.25s ease;
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1f3b4d;
+    text-decoration: none;
+    display: block;
+}
+
+/* ===== Hover Effect ===== */
+.link-card:hover {
+    background: #e6f3ff;
+    border-color: #bcd9ea;
+    transform: translateY(-3px);
+}
+
+/* ===== Phone Text Style ===== */
+.link-card-text {
+    background: #f7fafc;
+    padding: 18px 22px;
+    border-radius: 12px;
+    border: 1px solid #d9e2ec;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #1f3b4d;
+}
