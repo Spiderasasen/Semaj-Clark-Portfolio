@@ -19,6 +19,12 @@ function Header(){
             case "about":
                 navigate("/about");
                 break;
+            case "contact":
+                navigate("/contact");
+                break;
+            default:
+                console.log("no id found");
+                break;
         }
     }
 
