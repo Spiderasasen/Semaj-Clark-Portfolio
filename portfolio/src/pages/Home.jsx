@@ -1,7 +1,8 @@
 import Header from "../components/Header.jsx"
 import "../styles/artical.css"
 import "../styles/main.css"
-import Certification from "../assets/certifcation_hold_image.jpg"
+import Certification from "../assets/certification1.png";
+import Certification2 from "../assets/certification2.png";
 import Footer from "../components/Footer.jsx";
 
 function Home() {
@@ -34,7 +35,7 @@ function Home() {
                     <h3>Certifications</h3>
                     <div className="certification-container">
                         <img src={Certification} alt={"certification image"}/>
-                        <img src={Certification} alt={"certification image"}/>
+                        <img src={Certification2} alt={"certification image"}/>
                     </div>
                 </div>
 
