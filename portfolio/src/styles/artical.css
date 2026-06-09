@@ -20,7 +20,7 @@
 figure img{
     width: 50%;
     height: auto;
-    border-radius: 10px !important;
+    border-radius: 10px ;
 }
 figcaption{
     padding-top: 30px;
@@ -30,7 +30,7 @@ figcaption{
 .certification-container img{
     width: 25%;
     height: auto;
-    border-radius: 10px !important;
+    border-radius: 10px ;
     margin-left: 40px;
 }
 .certification{
