@@ -19,7 +19,7 @@ function Home() {
 
             {/*main code*/}
             <main className={"home-main"}>
-                <h1>Hi, im Semaj Clark!</h1>
+                <h1>Hi, I'm Semaj Clark!</h1>
                 {/*artical link*/}
                 <div className="vet-article-container">
                     <figure>

@@ -1,5 +1,5 @@
 import "../styles/footer.css"
-import Profile from "../assets/Profile.pdf";
+import Profile from "../assets/Semaj Clark Resume 2027.pdf";
 
 function Footer() {
     return(
